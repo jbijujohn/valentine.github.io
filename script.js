@@ -20,16 +20,16 @@ yesBtn.addEventListener("click", () => {
   yesScreen.classList.remove("hidden")
 
   confetti({
-    particleCount: 150,
-    spread: 200,
+    particleCount: 300,
+    spread: 400,
     shapes: ["heart"],
     origin: { y: 0.6 }
   });
 
   setTimeout(() => {
   confetti({
-    particleCount: 100,
-    spread: 120,
+    particleCount: 200,
+    spread: 400,
     origin: { y: 0.4 }
   });
 }, 300);
