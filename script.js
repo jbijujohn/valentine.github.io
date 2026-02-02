@@ -19,10 +19,10 @@ yesBtn.addEventListener("click", () => {
   valentineScreen.classList.add("hidden")
   yesScreen.classList.remove("hidden")
 
-    // CONFETTI BLAST
   confetti({
-    particleCount: 200,
-    spread: 80,
+    particleCount: 150,
+    spread: 100,
+    shapes: ["heart"],
     origin: { y: 0.6 }
   });
 });
