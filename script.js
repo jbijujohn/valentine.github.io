@@ -1,5 +1,3 @@
-alert("JS Loaded!");
-
 const continueBtn = document.getElementById("continueBtn");
 const introScreen = document.getElementById("introScreen");
 const valentineScreen = document.getElementById("valentineScreen");
