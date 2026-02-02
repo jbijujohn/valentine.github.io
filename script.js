@@ -21,10 +21,18 @@ yesBtn.addEventListener("click", () => {
 
   confetti({
     particleCount: 150,
-    spread: 100,
+    spread: 200,
     shapes: ["heart"],
     origin: { y: 0.6 }
   });
+
+  setTimeout(() => {
+  confetti({
+    particleCount: 100,
+    spread: 120,
+    origin: { y: 0.4 }
+  });
+}, 300);
 });
 
 let yesSize = 1;
