@@ -18,6 +18,13 @@ continueBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
   valentineScreen.classList.add("hidden")
   yesScreen.classList.remove("hidden")
+
+    // CONFETTI BLAST
+  confetti({
+    particleCount: 200,
+    spread: 80,
+    origin: { y: 0.6 }
+  });
 });
 
 let yesSize = 1;
